@@ -1,0 +1,19 @@
+mode(red(+)).
+base(red(color)).
+mode(blue(+)).
+base(blue(color)).
+mode(yellow(+)).
+base(yellow(color)).
+mode(apple(+)).
+base(apple(category)).
+mode(orange(+)).
+base(orange(category)).
+mode(banana(+)).
+base(banana(category)).
+base(farid(color, category, restriction)). 
+
+base(lili(color, category, restriction)). 
+
+mode(donoteat(+)).
+base(donoteat(restriction)).
+learn(farid/3). 

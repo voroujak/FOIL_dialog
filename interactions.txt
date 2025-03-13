@@ -1,0 +1,49 @@
+IMAGE:: kitchen7.jpg
+---1
+data: "the white mug on the countertop"
+"I see, the white mug is on the countertop"
+
+---2
+data: "i guess it is for mary"
+ "Got it! it belongs to mary"
+
+---3
+data: "its label is kitchenware"
+ "Ok, its label I save it as kitchenware"
+
+---4
+data: "the microwave on the countertop"
+ "I see, the microwave is on the countertop"
+
+---5
+data: "also it is for mary"
+"Got it! it belongs to mary"
+
+---6
+data: "name it kitchenware"
+ "Ok, it I save it as kitchenware"
+
+---7
+data: "the tennis ball on the countertop"
+"I see, the tennis ball is on the countertop"
+
+---8
+data: "the label is toy"
+"Ok, the label I save it as toy"
+
+---9
+data: "it belongs to toby"
+"Got it! it belongs to toby"
+
+---10
+data: "the scissor on the countertop"
+"I see, the scissor is on the countertop"
+
+---11
+data: "it also belongs to toby"
+"Got it! it also belongs to toby"
+
+---12
+data: "save the label as toy"
+"Ok, the I save it as toy"
+

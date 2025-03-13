@@ -1,0 +1,38 @@
+red(red) . 
+
+apple(apple) . 
+
+donoteat(donoteat) . 
+blue(blue) . 
+
+orange(orange) . 
+red(red) . 
+
+apple(apple) . 
+yellow(yellow) . 
+
+banana(banana) . 
+
+donoteat(donoteat) . 
+yellow(yellow) . 
+
+apple(apple) . 
+
+donoteat(donoteat) . 
+red(red) . 
+
+apple(apple) . 
+
+donoteat(donoteat) . 
+1.0::farid(red, apple, donoteat).
+1.0::lili(blue, orange, dc).
+1.0::farid(red, apple, dc).
+1.0::farid(yellow, banana, donoteat).
+1.0::farid(yellow, apple, donoteat).
+1.0::lili(red, apple, donoteat).
+0.0::farid(red, apple, donoteat).
+0.0::farid(blue, orange, dc).
+0.0::farid(red, apple, dc).
+0.0::farid(yellow, banana, donoteat).
+0.0::farid(yellow, apple, donoteat).
+0.0::farid(red, apple, donoteat).
