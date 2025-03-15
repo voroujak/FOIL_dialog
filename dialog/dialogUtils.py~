@@ -161,12 +161,13 @@ def sentencePrep(sentence):
 def testSentence (model, testSent):
     result = []
     resultGeneral = []
-
+    #FEINDEXES = []
+    #FTINDEXES = []
     sentenceFE = []
     sentenceFT = []
     testX = sentencePrep(testSent)
     testX = zeroPadding([testX])
-
+    #testX = pad_sequences(maxlen=max_len, sequences=[testX], padding="post", value=0)#len(vocabs)+1)
     
     senTokens = nltk.word_tokenize(testSent)
 
@@ -492,7 +493,10 @@ def AttributeCatcher(FEs, FTs, sentenceIntent, entity, assignmentM, polarity, te
         verbsUnited = '_'.join(word for word in verbs)
         
         
-
+        #print('BBBBBBBBBBBB')
+        #print('FES ' , FEs)
+        #print(restr)
+        
         
         
         if not semantic:

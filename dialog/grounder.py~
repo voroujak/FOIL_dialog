@@ -208,7 +208,11 @@ class Grounder:
             for key in self.updateableAttribute.keys():
                 updatingattributes['new'+key]=self.updateableAttribute[key]
             
-
+            print('XXXXXXx')
+            print(self.bestObject)
+            print(self.updateableAttribute)
+            print('uuuuuuuuuuuuuuuuu')
+            print(updatingattributes)
             #craeting a dictionary with all old and new attributes
             updatingattributes.update(self.bestObject)
             self.items.UpdateAttributes(**updatingattributes)
